@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.navbar {
+  background-color: rgb(0, 0, 0, 0.6);
+    position: relative;
+    width: 25%;
+    margin: auto;
+    bottom: 540px;
+    height: 25px;
+    left: 0;
+    right: 0;
+    position: fixed;
+   /* background-color: #f44336;*/
+   color: rgb(157, 157, 157);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Roboto', 'sans serif';
+    border: 1px solid rgb(77, 77, 77);
+    padding: -0px;
+z-index: 9;
+border-radius: 25px;
+backdrop-filter: blur(8px);
+    
+
+
+    
+}
+
+
+.store{
+    position: relative;
+    width: 100%;
+    color: rgb(255, 255, 255);
+    font-family: Inter, sans-serif;
+    font-size: 12px;
+    margin-right: 18px;
+    -webkit-text-size-adjust: 100%;
+}
+
+.store-1{
+  position: relative;
+  color: rgb(255, 255, 255);
+  font-family: Inter, sans-serif;
+  font-size: 12px;
+  margin-right: 18px;
+  -webkit-text-size-adjust: 100%;
+}
+
+.store-2{
+  position: relative;
+  color: rgb(255, 255, 255);
+  font-family: Inter, sans-serif;
+  font-size: 12px;
+  margin-right: 18px;
+  -webkit-text-size-adjust: 100%;
+}
+
+
+.store-3{
+    position: relative;
+    color: rgb(255, 255, 255);
+    font-family: Inter, sans-serif;
+    font-size: 12px;
+    margin-right: 18px;
+    -webkit-text-size-adjust: 100%;
+  }
+
+.marquee{
+    margin: 0;
+    font-size: 11px;
+    font-weight: bold;
+    line-height: 25px;
+    position: relative;
+    width: 100%;
+}
+
+.navbar a {
+    color: rgb(0, 0, 0);
+    padding: 12px 10px;
+    border-bottom: 4px solid transparent;
+    opacity: 100%;
+    
+}
+
+.navbar a:hover {
+   font-weight: 600;
+   opacity: 100%;
+}
+
+.logoLink{
+    position: absolute;
+    display: inline-block;
+    overflow: hidden;
+    top: 0px;
+    opacity: 100%;
+}
+
+.button-1 {
+    background: transparent;
+    position: fixed;
+    padding: 7px 7px;
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    font-weight: 600;
+    text-decoration: none;
+    cursor: pointer;
+    border: 1px solid rgb(255,0,0);
+    border-radius: 25px;
+    outline: none;
+    overflow: hidden;
+    color: rgb(255,0,0);
+    transition: color 0.3s 0.1s ease-out;
+    text-align: center;
+    z-index: 2;
+   right: 200px;
+  }
+  
+.button-1 span {
+    margin: 0;
+  }
+  
+  .button-1::before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    content: '';
+    border-radius: 50%;
+    display: block;
+    width: 20em;
+    height: 20em;
+    left: -5em;
+    text-align: center;
+    transition: box-shadow 0.5s ease-out;
+    z-index: -1;
+  }
+  
+  .button-1:hover {
+    color: #fff;
+    border: 1px solid rgb(255,0,0);
+  }
+  
+  .button-1:hover::before {
+    box-shadow: inset 0 0 0 10em rgb(255, 0, 0);
+  }
+
+
+  @media only screen and (max-width: 765px) {
+    .navbar{
+        position: absolute;
+        position: fixed;
+        top: 260px;
+        right: 0px;
+        color: white;
+        margin-bottom: 200px;
+        width: 90%;
+        
+    }
+   }
+
+
+
+   @media screen and (min-width: 1200px) {
+    .navbar{
+      position: absolute;
+      position: fixed;
+      top: 260px;
+      right: 0px;
+      color: white;
+      margin-bottom: 200px;
+      width: 30%;
+      
+  }
+   }

@@ -1,0 +1,95 @@
+.imagen{
+    position: relative;
+    top: 600px;
+    left: 530px;
+    height: 20%;
+    width: 15em;
+  height: 15em;
+  border-radius: 15em;
+  border: 1px solid rgb(255, 255, 255);
+  z-index: 2;
+}
+
+.mancha{
+    position: relative;
+    width: 80%;
+    top: -150px;
+    right: 400px;
+    filter: blur(25px);
+}
+
+.pintura{
+    position: relative;
+    height: 280px;
+    top: 600px;
+    left: 270px;
+    filter: blur(5px);
+
+}
+
+
+@media only screen and (max-width: 765px) {
+    .imagen{
+        position: relative;
+        top: 1280px;
+        left: 80px;
+        font-size: 10px;
+        height: 20%;
+        width: 15em;
+      height: 15em;
+      border-radius: 15em;
+      border: 1px solid rgb(255, 255, 255);
+      z-index: 2;
+    }
+
+    .mancha{
+        position: relative;
+        width: 80%;
+        top: 600px;
+        right: 100px;
+        filter: blur(25px);
+    }
+
+    .pintura{
+        position: relative;
+        height: 150px;
+        top: 1280px;
+        left: -60px;
+        filter: blur(20px);
+    
+    }
+}
+
+
+@media screen and (min-width: 1200px) {
+.imagen{
+        position: relative;
+        top: 480px;
+        left: 480px;
+        font-size: 15px;
+        height: 20%;
+        width: 15em;
+      height: 15em;
+      border-radius: 15em;
+      border: 1px solid rgb(255, 255, 255);
+      z-index: 2;
+    }
+
+    .pintura{
+        position: relative;
+        height: 250px;
+        top: 480px;
+        left: 250px;
+        filter: blur(20px);
+    
+    }
+
+    .mancha{
+        position: relative;
+        width: 80%;
+        top: -250px;
+        right: 400px;
+        filter: blur(25px);
+    }
+
+}

@@ -1,0 +1,153 @@
+.container3{
+    position: relative;
+    top: 1000px;
+    right: 400px;
+    max-height: 90vh;
+    height: 100%;
+}
+
+.Portafolio-tittle{
+    position: relative;
+    color: white;
+    bottom: 200px;
+    right: 50px;
+    font-size: 30px;
+}
+
+.it{
+    position: relative;
+    height: 50%;
+    bottom: 200px;
+    left: 720px;
+    border: 5px solid black;
+}
+
+.Certi1{
+    position: relative;
+    height: 50%;
+    top: 250px;
+    right: 110px;
+    border: 5px solid black;
+}
+
+.Certi2{
+    position: relative;
+    height: 50%;
+    bottom: 408px;
+    left: 200px;
+    border: 5px solid black;
+}
+
+.Certi3{
+    position: relative;
+    height: 50%;
+    bottom: 30px;
+    left: 400px;
+    border: 5px solid black;
+}
+
+
+@media only screen and (max-width: 765px) {
+    .container3{
+        position: relative;
+        top: 890px;
+        right: 400px;
+        max-height: 40vh;
+        height: 100%;
+    }
+
+    .Portafolio-tittle{
+        position: relative;
+        color: white;
+        bottom: 200px;
+        left: 400px;
+        font-size: 30px;
+    }
+
+    .it{
+        position: relative;
+        height: 50%;
+        bottom: 190px;
+        left: 400px;
+        border: 5px solid black;
+    }
+
+    .Certi1{
+        position: relative;
+        height: 50%;
+        top: -30px;
+        left: 400px;
+        border: 5px solid black;
+    }
+
+    .Certi2{
+        position: relative;
+        height: 50%;
+        bottom: 350px;
+        left: 400px;;
+        border: 5px solid black;
+    }
+
+    .Certi3{
+        position: relative;
+        height: 50%;
+        bottom: 185px;
+        left: 400px;
+        border: 5px solid black;
+    }
+}
+
+
+
+@media screen and (min-width: 1200px) {
+    .container3{
+        position: relative;
+        top: 1100px;
+        right: 400px;
+        max-height: 40vh;
+        height: 100%;
+    }
+
+    .Portafolio-tittle{
+        position: relative;
+        color: white;
+        bottom: 280px;
+        left: 400px;
+        font-size: 30px;
+    }
+
+    .it{
+        position: relative;
+        height: 90%;
+        bottom: -200px;
+        left: 300px;
+        border: 5px solid black;
+    }
+
+    .Certi1{
+        position: relative;
+        height: 90%;
+        top: 200px;
+        left: 500px;
+        border: 5px solid black;
+    }
+
+    .Certi2{
+        position: relative;
+        height: 90%;
+        bottom: 450px;
+        left: 300px;;
+        border: 5px solid black;
+    }
+
+    .Certi3{
+        position: relative;
+        height: 90%;
+        bottom: 455px;
+        left: 500px;
+        border: 5px solid black;
+    }
+}
+
+
+
