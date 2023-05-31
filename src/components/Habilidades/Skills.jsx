@@ -44,6 +44,30 @@ export default function AboutMe() {
     </p><p class="para-5">
 Soy una persona comprometida a la hora de asumir un rol.</p>  </div>
   </div>
+  <div class="card-6">
+  <div class="content-6">
+    <p class="heading-6">Tolerancia al estrés
+    </p><p class="para-6">
+    puedo mantener mi carácter firme ante la acumulación de tareas o responsabilidades, siendo mis respuestas controladas frente a un exceso de ellas</p>  </div>
+  </div>
+  <div class="card-7">
+  <div class="content-7">
+    <p class="heading-7">Escucha
+    </p><p class="para-7">
+    tengo la capacidad de detectar la información importante en la comunicación oral, recurriendo si fuese necesario a preguntas y a los diferentes tipos de comunicación</p>  </div>
+  </div>
+  <div class="card-8">
+  <div class="content-8">
+    <p class="heading-8">Sociable
+    </p><p class="para-8">
+    soy una persona que suele mezclarse fácilmente con las personas, siempre demostrándome abierta y participativa</p>  </div>
+  </div>
+  <div class="card-9">
+  <div class="content-9">
+    <p class="heading-9">Trabajo en equipo
+    </p><p class="para-9">
+    estoy dispuesta a participar como miembro integrado en un grupo para obtener un beneficio como resultado de la tarea a realizar, independientemente de los intereses personales</p>  </div>
+  </div>
  </div>
     
     );

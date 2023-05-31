@@ -31,7 +31,7 @@
 @media only screen and (max-width: 765px) {
     .imagen{
         position: relative;
-        top: 1280px;
+        top: 1950px;
         left: 80px;
         font-size: 10px;
         height: 20%;
@@ -45,7 +45,7 @@
     .mancha{
         position: relative;
         width: 80%;
-        top: 600px;
+        top: 1300px;
         right: 100px;
         filter: blur(25px);
     }
@@ -53,7 +53,7 @@
     .pintura{
         position: relative;
         height: 150px;
-        top: 1280px;
+        top: 1950px;
         left: -60px;
         filter: blur(20px);
     
