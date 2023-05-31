@@ -19,7 +19,7 @@ export default function AboutMe() {
   <div class="content-2">
     <p class="heading-2">Comuniacion Escrita
     </p><p class="para-2">
-    Capacidad para las ideas de forma gramaticalmente correctas.
+    Capacidad para expresar las ideas de forma gramaticalmente correctas.
     </p>
   </div>
   </div>
