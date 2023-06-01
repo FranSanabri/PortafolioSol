@@ -50,9 +50,9 @@
 @media only screen and (max-width: 765px) {
     .container3{
         position: relative;
-        top: 890px;
+        top: 830px;
         right: 400px;
-        max-height: 40vh;
+        max-height: 50vh;
         height: 100%;
     }
 
@@ -67,7 +67,7 @@
     .it{
         position: relative;
         height: 50%;
-        bottom: 190px;
+        bottom: 200px;
         left: 400px;
         border: 5px solid black;
     }
@@ -75,7 +75,7 @@
     .Certi1{
         position: relative;
         height: 50%;
-        top: -30px;
+        top: 20px;
         left: 400px;
         border: 5px solid black;
     }
@@ -83,7 +83,7 @@
     .Certi2{
         position: relative;
         height: 50%;
-        bottom: 330px;
+        bottom: 400px;
         left: 400px;;
         border: 5px solid black;
     }
