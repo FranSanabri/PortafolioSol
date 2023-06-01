@@ -67,7 +67,7 @@
     .it{
         position: relative;
         height: 50%;
-        bottom: 200px;
+        bottom: 220px;
         left: 400px;
         border: 5px solid black;
     }
@@ -83,7 +83,7 @@
     .Certi2{
         position: relative;
         height: 50%;
-        bottom: 400px;
+        bottom: 460px;
         left: 400px;;
         border: 5px solid black;
     }
@@ -91,7 +91,7 @@
     .Certi3{
         position: relative;
         height: 50%;
-        bottom: 170px;
+        bottom: 210px;
         left: 400px;
         border: 5px solid black;
     }
